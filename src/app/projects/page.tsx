@@ -1,7 +1,7 @@
 "use client"
 
 import PageNavigation from "../components/page-navigation";
-import ProjectImage from "./components/project-image";
+import ProjectButton from "./components/project-button";
 
 const title = "Projects";
 const subTitle = "Images are placeholders because I don't have a good project.";
@@ -45,68 +45,16 @@ export default function Projects() {
                 [&_li_img]:object-cover
             `}>
                 <li>
-                    <button
-                        className={`
-                            border
-                            border-[1px]
-                            border-neutral-800
-                            rounded
-                            w-full
-                            hover:scale-[102%]
-                            transition
-                            duration-250
-                        `}
-                    >
-                        <ProjectImage src="/project-1.webp" />
-                    </button>
+                    <ProjectButton src="/project-1.webp" />
                 </li>
                 <li>
-                    <button
-                        className={`
-                            border
-                            border-[1px]
-                            border-neutral-800
-                            rounded
-                            w-full
-                            hover:scale-[102%]
-                            transition
-                            duration-250
-                        `}
-                    >
-                        <ProjectImage src="/project-2.webp" />
-                    </button>
+                    <ProjectButton src="/project-2.webp" />
                 </li>
                 <li>
-                    <button
-                        className={`
-                            border
-                            border-[1px]
-                            border-neutral-800
-                            rounded
-                            w-full
-                            hover:scale-[102%]
-                            transition
-                            duration-250
-                        `}
-                    >
-                        <ProjectImage src="/project-3.png" />
-                    </button>
+                    <ProjectButton src="/project-3.webp" />
                 </li>
                 <li>
-                    <button
-                        className={`
-                            border
-                            border-[1px]
-                            border-neutral-800
-                            rounded
-                            w-full
-                            hover:scale-[102%]
-                            transition
-                            duration-250
-                        `}
-                    >
-                        <ProjectImage src="/project-4.png" />
-                    </button>
+                    <ProjectButton src="/project-4.webp" />
                 </li>
             </ul>
             <PageNavigation
