@@ -4,7 +4,7 @@ import PageNavigation from "../components/page-navigation";
 import ProjectButton from "./components/project-button";
 
 const title = "Projects";
-const subTitle = "Images are placeholders because I don't have a good project.";
+const subTitle = "Images are placeholders because I have a habit of deleting when I don't like them.";
 
 export default function Projects() {
     return (
