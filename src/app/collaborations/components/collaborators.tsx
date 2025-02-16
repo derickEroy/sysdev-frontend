@@ -22,8 +22,6 @@ export default function Collaborators() {
             setCollaborators(data);
         })();
     }, []);
-
-    console.log(loadedImages)
     
     return (
         <ul className={`
