@@ -39,8 +39,6 @@ export default function Collaborations() {
                 nextHref="/"
                 className={`
                     mt-12
-                    [&_a]:mx-auto
-                    sm:[&_a]:mx-0
                 `}
             />
         </div>
