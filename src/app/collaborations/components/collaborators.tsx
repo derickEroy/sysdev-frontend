@@ -2,7 +2,6 @@ import Image from "next/image";
 import { useEffect, useState } from "react";
 
 export default function Collaborators() {
-    const [loadedImages, setLoadedImages] = useState(0);
     const [collaborators, setCollaborators] = useState<{
         id: number;
         first_name: string;
@@ -47,27 +46,16 @@ export default function Collaborators() {
                         gap-4
                     `}
                 >
-                    {loadedImages !== 6 ? (
-                        <p className={`
-                            collaborator-image-size
-                            text-sm
-                            text-neutral-500
-                            grid
-                            place-content-center
-                        `}>Loading...</p>
-                    ) : null}
                     <Image
                         src={user.avatar}
                         alt={`User ${user.id} Avatar`}
                         width={512}
                         height={512}
                         priority
-                        onLoad={() => setLoadedImages(p => p += 1)}
                         className={`
                             collaborator-image-size
                             rounded-full
                             object-cover
-                            ${loadedImages === 6 ? 'auto' : 'hidden'}
                         `}
                     />
                     <div>
