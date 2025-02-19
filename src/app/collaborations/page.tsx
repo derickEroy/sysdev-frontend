@@ -34,7 +34,9 @@ export default function Collaborations() {
             <Collaborators />
             <PageNavigation
                 backText="Projects"
+                nextText="Home"
                 backHref="/projects"
+                nextHref="/"
                 className={`
                     mt-12
                     [&_a]:mx-auto
