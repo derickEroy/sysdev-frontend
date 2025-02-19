@@ -1,7 +1,7 @@
 "use client"
 
 import PageNavigation from "../components/page-navigation";
-import ProjectButton from "./components/project-button";
+import ProjectsList from "./components/projects-list";
 
 const title = "Projects";
 const subTitle = "Images are placeholders because I have a habit of deleting when I don't like them.";
@@ -33,30 +33,7 @@ export default function Projects() {
             `}>
                 {subTitle}
             </p>
-            <ul className={`
-                mt-8
-                grid
-                gap-4
-                w-fit
-                sm:grid-cols-[repeat(2,300px)]
-                sm:grid-rows-[repeat(2,300px)]
-                [&_li_button]:relative
-                [&_li_button]:h-full
-                [&_li_img]:object-cover
-            `}>
-                <li>
-                    <ProjectButton src="/project-1.webp" />
-                </li>
-                <li>
-                    <ProjectButton src="/project-2.webp" />
-                </li>
-                <li>
-                    <ProjectButton src="/project-3.webp" />
-                </li>
-                <li>
-                    <ProjectButton src="/project-4.webp" />
-                </li>
-            </ul>
+            <ProjectsList />
             <PageNavigation
                 className="mt-12"
                 backText="About"
