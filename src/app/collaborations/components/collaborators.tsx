@@ -67,7 +67,10 @@ export default function Collaborators() {
                             &nbsp;
                             {user.last_name}
                         </h4>
-                        <p className={`text-xs text-neutral-500`}>
+                        <p className={`
+                            text-xs
+                            text-neutral-500
+                        `}>
                             {user.email}
                         </p>
                     </div>
