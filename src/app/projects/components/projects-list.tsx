@@ -3,8 +3,8 @@ import Image from "next/image";
 const imageSources = [
     "/project-1.webp",
     "/project-2.webp",
-    "/project-3.webp",
-    "/project-4.webp"
+    "/project-3.png",
+    "/project-4.png"
 ];
 
 export default function ProjectsList() {
