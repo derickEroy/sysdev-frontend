@@ -1,6 +1,6 @@
 "use client"
 
-import PageNavigation from "../components/page-navigation";
+import PageNavigation from "../@core/components/page-navigation";
 import Collaborators from "./components/collaborators";
 
 const title = "Collaborations";

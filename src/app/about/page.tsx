@@ -1,4 +1,4 @@
-import PageNavigation from "../components/page-navigation";
+import PageNavigation from "../@core/components/page-navigation";
 
 const title = "About Me";
 const text = "I'm Derick Lance P. Eroy, a 19-year-old student pursuing a BS in Computer Science. I have a strong passion for coding. I am the type of programmer that is very meticulous when it comes to code cleanliness (and I think this project's code is not that clean because some repetitive code could be abstracted). I'm always eager to learn new technologies and enhance my skills in the field of programming.";

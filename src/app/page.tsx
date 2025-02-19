@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import React from "react";
-import OutlineButton from "./components/outline-button";
+import OutlineButton from "./@core/components/outline-button";
 
 export default function Home() {
   return (
